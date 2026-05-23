@@ -8,9 +8,9 @@
   --color-brand-green: #0D2E27;
   --color-brand-green-light: #164E42;
   --color-brand-green-dark: #061d18;
-  --color-brand-saffron: #F49D37;
+  --color-brand-saffron: #49CC7D;
   --color-brand-saffron-light: #FCDCA5;
-  --color-brand-saffron-dark: #B86C14;
+  --color-brand-saffron-dark: #67D35F;
   --color-brand-dark: #FDFDFB;
   --color-brand-dark-surface: #FFFFFF;
 }
@@ -47,7 +47,7 @@ body {
   z-index: -10;
   background-image: 
     radial-gradient(circle at 10% 20%, rgba(13, 46, 39, 0.03) 0%, transparent 50%),
-    radial-gradient(circle at 90% 80%, rgba(244, 157, 55, 0.04) 0%, transparent 50%);
+    radial-gradient(circle at 90% 80%, rgba(73, 204, 125, 0.04) 0%, transparent 50%);
 }
 
 .text-glow-green {
@@ -55,16 +55,16 @@ body {
 }
 
 .text-glow-saffron {
-  text-shadow: 0 0 15px rgba(244, 157, 55, 0.3);
+  text-shadow: 0 0 15px rgba(73, 204, 125, 0.3);
 }
 
 /* Beautiful clinical pulse state matching saffron accent */
 @keyframes pulse-ring {
   0% {
-    box-shadow: 0 0 0 0 rgba(244, 157, 55, 0.3);
+    box-shadow: 0 0 0 0 rgba(73, 204, 125, 0.3);
   }
   100% {
-    box-shadow: 0 0 0 12px rgba(244, 157, 55, 0);
+    box-shadow: 0 0 0 12px rgba(73, 204, 125, 0);
   }
 }
 
@@ -101,6 +101,6 @@ body {
   border-radius: 9999px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #F49D37;
+  background: #49CC7D;
 }
 

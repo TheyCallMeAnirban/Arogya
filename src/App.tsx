@@ -20,19 +20,16 @@ import {
 import { Hospital, ClinicalAnalysis, SearchResult } from "./types";
 import { SYMPTOM_PRESETS, CITIES_LIST, SymptomPreset } from "./data";
 import MedicalMap from "./components/MedicalMap";
-import AIAdvisor from "./components/AIAdvisor";
 import FacilityCard from "./components/FacilityCard";
 import BookingModal from "./components/BookingModal";
 
 export default function App() {
   // Input form state fields
-  const [symptoms, setSymptoms] = useState(
-    "Chest pain and mild breathlessness while climbing stairs, radiating to shoulder."
-  );
-  const [city, setCity] = useState("Mumbai, Maharashtra");
-  const [age, setAge] = useState<number | "">(52);
-  const [budget, setBudget] = useState("₹2,00,000");
-  const [comorbidities, setComorbidities] = useState("Hypertension");
+  const [symptoms, setSymptoms] = useState("");
+  const [city, setCity] = useState("");
+  const [age, setAge] = useState<number | "">("");
+  const [budget, setBudget] = useState("");
+  const [comorbidities, setComorbidities] = useState("");
 
   // App logical flow state fields
   const [searchQuery, setSearchQuery] = useState("");
@@ -42,10 +39,7 @@ export default function App() {
   const [hospitalForBooking, setHospitalForBooking] = useState<Hospital | null>(null);
   const [errorText, setErrorText] = useState("");
 
-  // Auto trigger an initial high-fidelity clinical search on load for premier UX matching visual mockup
-  useEffect(() => {
-    executeClinicalSearch(true);
-  }, []);
+
 
   const executeClinicalSearch = async (isInitial = false) => {
     setIsLoading(true);
@@ -99,58 +93,19 @@ export default function App() {
       {/* Visual lighting blobs in background */}
       <div className="mesh-blooms" />
 
-      {/* Modern High-contrast Header Navigation Menu */}
-      <header className="sticky top-0 z-40 bg-white/90 backdrop-blur-md border-b border-slate-250/70 shadow-sm">
-        <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
-          <div className="flex items-center gap-3">
-            <div className="w-8 h-8 rounded-xl bg-brand-green/10 flex items-center justify-center border-2 border-brand-green text-brand-green shadow-sm">
-              <Stethoscope className="w-4.5 h-4.5" />
-            </div>
-            <span className="text-lg font-black tracking-tight text-brand-green flex items-center gap-1.5 font-sans">
-              Arogya <span className="text-xs px-2 py-0.5 rounded-full bg-brand-green/10 text-brand-green border border-brand-green/30 font-bold uppercase font-sans">AI Navigator</span>
-            </span>
-          </div>
 
-          <nav className="hidden md:flex items-center gap-8 text-sm font-bold">
-            <a
-              href="#"
-              className="text-brand-green font-extrabold border-b-2 border-brand-green py-5 transition-colors duration-200 tracking-wide"
-            >
-              Search Dashboard
-            </a>
-            <a
-              href="#insights"
-              className="text-slate-600 hover:text-brand-green py-5 transition-colors duration-200 tracking-wide font-bold"
-            >
-              Pathways Insights
-            </a>
-            <a
-              href="#hospitals"
-              className="text-slate-600 hover:text-brand-green py-5 transition-colors duration-200 tracking-wide font-bold"
-            >
-              Approved Hospitals
-            </a>
-            <a
-              href="#pricing"
-              className="text-slate-600 hover:text-brand-green py-5 transition-colors duration-200 tracking-wide font-bold"
-            >
-              Value Plans Overview
-            </a>
-          </nav>
-
-          <div className="flex items-center gap-4 text-xs font-bold">
-            <span className="text-brand-green font-mono tracking-wider bg-brand-green/10 border border-brand-green/20 px-3 py-1.5 rounded-xl uppercase">
-              Arogya 2026
-            </span>
-          </div>
-        </div>
-      </header>
 
       {/* Main Container */}
       <main className="flex-1 max-w-7xl w-full mx-auto px-6 py-8 space-y-12">
         
         {/* Hero Section */}
         <section className="text-center space-y-4 max-w-3xl mx-auto pt-6">
+          <div className="flex items-center justify-center gap-3 mb-4">
+            <img src="/ico.png" alt="Arogya Logo" className="w-12 h-12 object-contain drop-shadow-md" />
+            <span className="text-3xl font-black tracking-tight text-brand-green font-sans">
+              Arogya
+            </span>
+          </div>
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-green/10 border border-brand-green/30 text-xs font-bold text-brand-green mb-2 shadow-sm animate-pulse">
             <BrainCircuit className="w-3.5 h-3.5 text-brand-green" />
             <span>Advanced Clinical Navigation for India</span>
@@ -293,6 +248,7 @@ export default function App() {
                     onChange={(e) => setCity(e.target.value)}
                     className="w-full bg-slate-50/70 border border-slate-200/80 text-brand-green font-bold rounded-xl px-3.5 py-3 text-xs focus:outline-none focus:border-brand-green focus:bg-white cursor-pointer h-[48px] appearance-none"
                   >
+                    <option value="" disabled className="bg-slate-100 text-slate-500">Select a city...</option>
                     {CITIES_LIST.map((c) => (
                       <option key={c} value={c} className="bg-white text-brand-green">
                         {c}
@@ -508,8 +464,7 @@ export default function App() {
 
       </main>
 
-      {/* Floating AI Companion Consult Panel */}
-      <AIAdvisor />
+
 
       {/* Booking popup scheduler */}
       {hospitalForBooking && (
