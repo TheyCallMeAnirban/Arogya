@@ -1,0 +1,20 @@
+{
+  "low": {
+    "per_day": [1500, 4000],
+    "doctor_fee_factor": 0.10,
+    "medicine_factor": 0.15,
+    "contingency_factor": 0.10
+  },
+  "medium": {
+    "per_day": [4000, 9000],
+    "doctor_fee_factor": 0.12,
+    "medicine_factor": 0.15,
+    "contingency_factor": 0.12
+  },
+  "high": {
+    "per_day": [9000, 30000],
+    "doctor_fee_factor": 0.15,
+    "medicine_factor": 0.15,
+    "contingency_factor": 0.15
+  }
+}

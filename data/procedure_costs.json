@@ -1,0 +1,378 @@
+{
+  "Angioplasty": [
+    45000,
+    350000
+  ],
+  "Cardioversion": [
+    10000,
+    50000
+  ],
+  "Cardiac Resynchronization Therapy": [
+    250000,
+    600000
+  ],
+  "Diuretic Therapy": [
+    5000,
+    20000
+  ],
+  "Primary PCI": [
+    80000,
+    350000
+  ],
+  "Pacemaker Implantation": [
+    150000,
+    400000
+  ],
+  "Antihypertensive Therapy": [
+    3000,
+    15000
+  ],
+  "Knee Replacement": [
+    80000,
+    400000
+  ],
+  "Discectomy": [
+    60000,
+    250000
+  ],
+  "Arthroscopic Repair": [
+    50000,
+    180000
+  ],
+  "Hip Replacement": [
+    100000,
+    400000
+  ],
+  "Carpal Tunnel Release": [
+    20000,
+    60000
+  ],
+  "Open Reduction Internal Fixation": [
+    40000,
+    150000
+  ],
+  "Cervical Discectomy": [
+    80000,
+    250000
+  ],
+  "Antibiotic Therapy": [
+    3000,
+    20000
+  ],
+  "Insulin Therapy": [
+    5000,
+    25000
+  ],
+  "Supportive Care": [
+    2000,
+    15000
+  ],
+  "Liver Management Therapy": [
+    10000,
+    50000
+  ],
+  "Anti-TB Therapy": [
+    5000,
+    30000
+  ],
+  "Thyroid Hormone Replacement": [
+    3000,
+    15000
+  ],
+  "Nutritional Rehabilitation": [
+    5000,
+    30000
+  ],
+  "Myringotomy": [
+    15000,
+    50000
+  ],
+  "Bronchodilator Therapy": [
+    3000,
+    20000
+  ],
+  "Anticonvulsant Therapy": [
+    5000,
+    25000
+  ],
+  "Phototherapy": [
+    5000,
+    20000
+  ],
+  "ORS Therapy": [
+    1000,
+    8000
+  ],
+  "Myomectomy": [
+    40000,
+    150000
+  ],
+  "Total Hysterectomy": [
+    40000,
+    180000
+  ],
+  "Hormonal Therapy": [
+    3000,
+    20000
+  ],
+  "Laparoscopy": [
+    30000,
+    100000
+  ],
+  "Antifungal Therapy": [
+    1000,
+    8000
+  ],
+  "Antenatal Care": [
+    5000,
+    30000
+  ],
+  "Mastectomy": [
+    80000,
+    250000
+  ],
+  "Mechanical Thrombectomy": [
+    100000,
+    400000
+  ],
+  "Occipital Nerve Block": [
+    5000,
+    30000
+  ],
+  "Cognitive Therapy": [
+    5000,
+    30000
+  ],
+  "Deep Brain Stimulation": [
+    400000,
+    1000000
+  ],
+  "Surgical Clipping": [
+    200000,
+    500000
+  ],
+  "Immunomodulatory Therapy": [
+    50000,
+    200000
+  ],
+  "Wide Local Excision": [
+    15000,
+    80000
+  ],
+  "Lobectomy": [
+    150000,
+    600000
+  ],
+  "Colectomy": [
+    100000,
+    350000
+  ],
+  "Chemotherapy": [
+    30000,
+    200000
+  ],
+  "Stem Cell Transplant": [
+    500000,
+    1500000
+  ],
+  "Cystectomy": [
+    100000,
+    350000
+  ],
+  "Laryngectomy": [
+    100000,
+    300000
+  ],
+  "Endoscopic Therapy": [
+    15000,
+    60000
+  ],
+  "Fundoplication": [
+    60000,
+    180000
+  ],
+  "Band Ligation": [
+    20000,
+    70000
+  ],
+  "Dietary Management": [
+    2000,
+    10000
+  ],
+  "Appendectomy": [
+    25000,
+    80000
+  ],
+  "Endoscopic Hemostasis": [
+    20000,
+    80000
+  ],
+  "Laparoscopic Cholecystectomy": [
+    40000,
+    120000
+  ],
+  "Trabeculectomy": [
+    30000,
+    100000
+  ],
+  "Phacoemulsification": [
+    20000,
+    80000
+  ],
+  "Vitreoretinal Surgery": [
+    60000,
+    200000
+  ],
+  "Laser Photocoagulation": [
+    10000,
+    40000
+  ],
+  "Antiallergic Eye Drops": [
+    500,
+    3000
+  ],
+  "Low Vision Aids": [
+    2000,
+    15000
+  ],
+  "Strabismus Surgery": [
+    25000,
+    80000
+  ],
+  "Tinnitus Retraining Therapy": [
+    5000,
+    25000
+  ],
+  "Cochlear Implant": [
+    400000,
+    900000
+  ],
+  "Functional Endoscopic Sinus Surgery": [
+    40000,
+    120000
+  ],
+  "Tonsillectomy": [
+    20000,
+    60000
+  ],
+  "Microlaryngoscopy": [
+    30000,
+    90000
+  ],
+  "UPPP Surgery": [
+    60000,
+    180000
+  ],
+  "Nasal Cauterization": [
+    5000,
+    20000
+  ],
+  "Biologic Therapy": [
+    20000,
+    100000
+  ],
+  "Intralesional Steroid Injection": [
+    2000,
+    10000
+  ],
+  "Isotretinoin Therapy": [
+    3000,
+    15000
+  ],
+  "Antiviral Therapy": [
+    3000,
+    20000
+  ],
+  "Topical Steroid Therapy": [
+    500,
+    5000
+  ],
+  "ESWL": [
+    20000,
+    60000
+  ],
+  "TURP": [
+    50000,
+    150000
+  ],
+  "Ureteroscopy": [
+    30000,
+    100000
+  ],
+  "Pelvic Floor Therapy": [
+    5000,
+    25000
+  ],
+  "Urethroplasty": [
+    60000,
+    200000
+  ],
+  "Cognitive Behavioral Therapy": [
+    3000,
+    20000
+  ],
+  "Anxiolytic Therapy": [
+    2000,
+    15000
+  ],
+  "Antipsychotic Therapy": [
+    3000,
+    25000
+  ],
+  "Mood Stabilizer Therapy": [
+    3000,
+    20000
+  ],
+  "Exposure Response Prevention Therapy": [
+    5000,
+    25000
+  ],
+  "Sleep Cognitive Therapy": [
+    3000,
+    15000
+  ],
+  "Immunosuppressive Therapy": [
+    20000,
+    100000
+  ],
+  "Dialysis": [
+    5000,
+    20000
+  ],
+  "Hemodialysis": [
+    5000,
+    20000
+  ],
+  "ACE Inhibitor Therapy": [
+    2000,
+    10000
+  ],
+  "IV Antibiotic Therapy": [
+    5000,
+    25000
+  ],
+  "Electrolyte Correction": [
+    3000,
+    15000
+  ],
+  "Renal Replacement Therapy": [
+    10000,
+    50000
+  ],
+  "Pulmonary Rehabilitation": [
+    10000,
+    50000
+  ],
+  "Thrombolysis": [
+    30000,
+    100000
+  ],
+  "Thoracentesis": [
+    10000,
+    40000
+  ],
+  "Antifibrotic Therapy": [
+    20000,
+    80000
+  ]
+}

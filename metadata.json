@@ -1,0 +1,6 @@
+{
+  "name": "Arogya AI",
+  "description": "AI-powered hospital finder for India — symptoms to care pathways in seconds",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

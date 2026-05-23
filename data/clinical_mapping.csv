@@ -1,0 +1,106 @@
+symptom,condition,icd10,speciality,procedure,diagnostics,department
+chest pain,Coronary Artery Disease,I25.9,Cardiology,Angioplasty,"ECG,TMT,Angiography",Cardiology
+heart beating fast or irregular,Atrial Fibrillation,I48.9,Cardiology,Cardioversion,"Holter,ECHO,TSH",Cardiology
+shortness of breath on exertion,Heart Failure,I50.9,Cardiology,Cardiac Resynchronization Therapy,"ECHO,BNP,Chest X-ray",Cardiology
+swollen ankles and feet,Congestive Heart Failure,I50.0,Cardiology,Diuretic Therapy,"ECHO,BNP,ECG",Cardiology
+sudden severe chest tightness,Acute Myocardial Infarction,I21.9,Cardiology,Primary PCI,"ECG,Troponin,Angiography",Cardiology
+dizziness and fainting,Arrhythmia,I49.9,Cardiology,Pacemaker Implantation,"Holter,ECG,ECHO",Cardiology
+high blood pressure headache,Hypertension,I10,Cardiology,Antihypertensive Therapy,"ECG,Renal Function Test,Fundoscopy",Cardiology
+knee pain,Osteoarthritis,M17.9,Orthopedics,Knee Replacement,"X-ray,MRI",Orthopedics
+back pain going down the leg,Lumbar Disc Herniation,M51.1,Orthopedics,Discectomy,"MRI LS Spine,X-ray Spine,EMG",Orthopedics
+shoulder pain and stiffness,Rotator Cuff Tear,M75.1,Orthopedics,Arthroscopic Repair,"MRI Shoulder,X-ray Shoulder,Ultrasound",Orthopedics
+pain in hip while walking,Hip Osteoarthritis,M16.9,Orthopedics,Hip Replacement,"X-ray Hip,MRI Hip,CBC",Orthopedics
+wrist pain and numbness,Carpal Tunnel Syndrome,G56.0,Orthopedics,Carpal Tunnel Release,"EMG,NCV,X-ray Wrist",Orthopedics
+broken bone after fall,Fracture,S72.9,Orthopedics,Open Reduction Internal Fixation,"X-ray,CT Scan,CBC",Orthopedics
+neck pain radiating to arm,Cervical Disc Herniation,M50.1,Orthopedics,Cervical Discectomy,"MRI Cervical Spine,X-ray Neck,EMG",Orthopedics
+fever for more than 3 days,Typhoid Fever,A01.0,General Medicine,Antibiotic Therapy,"Widal Test,CBC,Blood Culture",General Medicine
+fatigue and weight loss,Diabetes Mellitus Type 2,E11.9,General Medicine,Insulin Therapy,"HbA1c,Blood Sugar Fasting,Lipid Profile",General Medicine
+body ache and high fever,Dengue Fever,A90,General Medicine,Supportive Care,"NS1 Antigen,CBC,Dengue IgM",General Medicine
+yellow skin and eyes,Jaundice,R17,General Medicine,Liver Management Therapy,"LFT,Bilirubin,Hepatitis Panel",General Medicine
+persistent cough and night sweats,Tuberculosis,A15.9,General Medicine,Anti-TB Therapy,"Sputum AFB,Chest X-ray,Mantoux Test",General Medicine
+frequent urination and thirst,Diabetes Mellitus Type 1,E10.9,General Medicine,Insulin Therapy,"HbA1c,Blood Sugar Fasting,Urine Routine",General Medicine
+sudden weight gain and cold intolerance,Hypothyroidism,E03.9,General Medicine,Thyroid Hormone Replacement,"TSH,T3,T4",General Medicine
+child with high fever and rash,Measles,B05.9,Pediatrics,Supportive Care,"CBC,Measles IgM,Vitamin A",Pediatrics
+child not eating and losing weight,Malnutrition,E46,Pediatrics,Nutritional Rehabilitation,"CBC,Albumin,Blood Sugar Fasting",Pediatrics
+child with recurrent ear infections,Otitis Media,H66.9,Pediatrics,Myringotomy,"Tympanometry,CBC,Hearing Test",Pediatrics
+child with difficulty breathing at night,Childhood Asthma,J45.9,Pediatrics,Bronchodilator Therapy,"Spirometry,Chest X-ray,CBC",Pediatrics
+child with seizures,Epilepsy,G40.9,Pediatrics,Anticonvulsant Therapy,"EEG,MRI Brain,CBC",Pediatrics
+newborn with yellow skin,Neonatal Jaundice,P59.9,Pediatrics,Phototherapy,"Bilirubin,CBC,Blood Group",Pediatrics
+child with persistent diarrhea,Gastroenteritis,A09,Pediatrics,ORS Therapy,"Stool Culture,CBC,Electrolytes",Pediatrics
+very heavy periods,Uterine Fibroids,D25.9,Gynaecology,Myomectomy,"TVS Ultrasound,CBC,FSH/LH",Gynaecology
+bleeding after periods stopped,Endometrial Cancer,C54.1,Gynaecology,Total Hysterectomy,"Endometrial Biopsy,CA-125,MRI Pelvis",Gynaecology
+pelvic pain and irregular periods,Polycystic Ovary Syndrome,E28.2,Gynaecology,Hormonal Therapy,"TVS Ultrasound,FSH/LH,Testosterone",Gynaecology
+pain during intercourse,Endometriosis,N80.9,Gynaecology,Laparoscopy,"TVS Ultrasound,CA-125,MRI Pelvis",Gynaecology
+vaginal discharge with itching,Vaginal Infection,N76.0,Gynaecology,Antifungal Therapy,"Vaginal Swab,CBC,Urine Routine",Gynaecology
+missed periods and nausea,Pregnancy,Z34.9,Gynaecology,Antenatal Care,"Urine Pregnancy Test,TVS Ultrasound,CBC",Gynaecology
+breast lump,Breast Cancer,C50.9,Gynaecology,Mastectomy,"Mammography,Breast Biopsy,CA-125",Gynaecology
+sudden weakness on one side of body,Acute Ischemic Stroke,I63.9,Neurology,Mechanical Thrombectomy,"CT Brain,MRI Brain,Carotid Doppler",Neurology
+headache with blurred vision,Migraine,G43.9,Neurology,Occipital Nerve Block,"MRI Brain,MRA,TSH",Neurology
+memory loss and confusion,Alzheimers Disease,G30.9,Neurology,Cognitive Therapy,"MRI Brain,PET Scan,Neuropsychological Test",Neurology
+shaking hands and slow movement,Parkinsons Disease,G20,Neurology,Deep Brain Stimulation,"MRI Brain,DAT Scan,Neurological Exam",Neurology
+sudden severe headache,Subarachnoid Hemorrhage,I60.9,Neurology,Surgical Clipping,"CT Brain,MRI Brain,Lumbar Puncture",Neurology
+numbness and tingling in limbs,Multiple Sclerosis,G35,Neurology,Immunomodulatory Therapy,"MRI Brain,MRI Spine,CSF Analysis",Neurology
+recurrent seizures,Epilepsy,G40.9,Neurology,Anticonvulsant Therapy,"EEG,MRI Brain,CBC",Neurology
+dark or irregular patch on skin,Skin Cancer,C44.9,Oncology,Wide Local Excision,"Dermoscopy,Skin Biopsy,PET-CT",Oncology
+coughing up blood,Lung Cancer,C34.9,Oncology,Lobectomy,"Chest CT,Bronchoscopy,PET-CT",Oncology
+blood in stool and weight loss,Colorectal Cancer,C20,Oncology,Colectomy,"Colonoscopy,CEA,CT Abdomen",Oncology
+lump in neck that keeps growing,Lymphoma,C85.9,Oncology,Chemotherapy,"Lymph Node Biopsy,PET-CT,CBC",Oncology
+severe bone pain and fatigue,Multiple Myeloma,C90.0,Oncology,Stem Cell Transplant,"Bone Marrow Biopsy,Serum Protein,PET-CT",Oncology
+blood in urine without pain,Bladder Cancer,C67.9,Oncology,Cystectomy,"Urine Cytology,Cystoscopy,CT Pelvis",Oncology
+persistent hoarseness of voice,Laryngeal Cancer,C32.9,Oncology,Laryngectomy,"Laryngoscopy,CT Neck,Biopsy",Oncology
+stomach pain after eating,Peptic Ulcer Disease,K27.9,Gastroenterology,Endoscopic Therapy,"Endoscopy,H.pylori Test,CBC",Gastroenterology
+acid reflux and heartburn,GERD,K21.0,Gastroenterology,Fundoplication,"Endoscopy,pH Monitoring,Manometry",Gastroenterology
+blood in vomit,Esophageal Varices,I85.9,Gastroenterology,Band Ligation,"Endoscopy,LFT,CBC",Gastroenterology
+abdominal bloating and diarrhea,Irritable Bowel Syndrome,K58.9,Gastroenterology,Dietary Management,"Colonoscopy,Stool Culture,CBC",Gastroenterology
+severe abdominal pain with fever,Appendicitis,K37,Gastroenterology,Appendectomy,"CT Abdomen,CBC,Ultrasound Abdomen",Gastroenterology
+dark colored stools,GI Bleeding,K92.1,Gastroenterology,Endoscopic Hemostasis,"Endoscopy,CBC,Coagulation Profile",Gastroenterology
+yellowing of skin with abdominal pain,Gallstones,K80.2,Gastroenterology,Laparoscopic Cholecystectomy,"Ultrasound Abdomen,LFT,CBC",Gastroenterology
+blurred vision and eye pain,Glaucoma,H40.9,Ophthalmology,Trabeculectomy,"Tonometry,Visual Field Test,OCT",Ophthalmology
+cloudy vision in old age,Cataract,H26.9,Ophthalmology,Phacoemulsification,"Slit Lamp Exam,IOL Master,Visual Acuity",Ophthalmology
+sudden loss of vision,Retinal Detachment,H33.0,Ophthalmology,Vitreoretinal Surgery,"Fundoscopy,OCT,B-scan Ultrasound",Ophthalmology
+seeing floaters and flashes,Diabetic Retinopathy,H36.0,Ophthalmology,Laser Photocoagulation,"Fundoscopy,FFA,OCT",Ophthalmology
+red itchy watery eyes,Allergic Conjunctivitis,H10.1,Ophthalmology,Antiallergic Eye Drops,"Slit Lamp Exam,IgE,Allergy Test",Ophthalmology
+difficulty seeing at night,Retinitis Pigmentosa,H35.5,Ophthalmology,Low Vision Aids,"ERG,Visual Field Test,OCT",Ophthalmology
+crossed or misaligned eyes,Strabismus,H50.9,Ophthalmology,Strabismus Surgery,"Cover Test,Visual Acuity,Refraction",Ophthalmology
+ringing in ears,Tinnitus,H93.1,ENT,Tinnitus Retraining Therapy,"Audiometry,MRI Brain,Tympanometry",ENT
+hearing loss gradually,Sensorineural Hearing Loss,H90.3,ENT,Cochlear Implant,"Audiometry,BERA,Tympanometry",ENT
+blocked nose and facial pain,Sinusitis,J32.9,ENT,Functional Endoscopic Sinus Surgery,"CT Sinuses,Nasal Endoscopy,CBC",ENT
+sore throat and difficulty swallowing,Tonsillitis,J35.0,ENT,Tonsillectomy,"Throat Swab,CBC,ASO Titer",ENT
+hoarse voice for weeks,Vocal Cord Nodules,J38.2,ENT,Microlaryngoscopy,"Laryngoscopy,Voice Analysis,CT Neck",ENT
+snoring and breathing pauses in sleep,Obstructive Sleep Apnea,G47.3,ENT,UPPP Surgery,"Sleep Study,Nasopharyngoscopy,CBC",ENT
+nosebleed frequently,Epistaxis,R04.0,ENT,Nasal Cauterization,"CBC,Coagulation Profile,BP Check",ENT
+red itchy patches on skin,Psoriasis,L40.9,Dermatology,Biologic Therapy,"Skin Biopsy,CBC,LFT",Dermatology
+hair falling in patches,Alopecia Areata,L63.9,Dermatology,Intralesional Steroid Injection,"Trichoscopy,Thyroid Profile,CBC",Dermatology
+acne on face and back,Acne Vulgaris,L70.0,Dermatology,Isotretinoin Therapy,"Hormonal Profile,LFT,CBC",Dermatology
+skin rash with fluid filled blisters,Chickenpox,B01.9,Dermatology,Antiviral Therapy,"Tzanck Smear,CBC,VZV IgM",Dermatology
+white patches on skin,Vitiligo,L80,Dermatology,Phototherapy,"Thyroid Profile,CBC,ANA",Dermatology
+itchy skin all over body,Eczema,L30.9,Dermatology,Topical Steroid Therapy,"Skin Biopsy,IgE,Allergy Test",Dermatology
+fungal infection between toes,Tinea Pedis,B35.3,Dermatology,Antifungal Therapy,"KOH Examination,Skin Scraping,CBC",Dermatology
+burning sensation while urinating,Urinary Tract Infection,N39.0,Urology,Antibiotic Therapy,"Urine Routine,Urine Culture,CBC",Urology
+blood in urine,Kidney Stones,N20.0,Urology,ESWL,"KUB X-ray,CT KUB,Urine Routine",Urology
+difficulty in urination in elderly male,Benign Prostatic Hyperplasia,N40,Urology,TURP,"PSA,Uroflowmetry,Ultrasound KUB",Urology
+pain in lower back and groin,Ureteric Calculus,N20.1,Urology,Ureteroscopy,"CT KUB,Urine Routine,KFT",Urology
+inability to hold urine,Urinary Incontinence,N39.3,Urology,Pelvic Floor Therapy,"Urine Routine,Urodynamics,Ultrasound KUB",Urology
+swollen painful testicle,Epididymo-orchitis,N45.9,Urology,Antibiotic Therapy,"Scrotal Ultrasound,CBC,Urine Culture",Urology
+weak urine stream,Urethral Stricture,N35.9,Urology,Urethroplasty,"Uroflowmetry,RGU,Urethroscopy",Urology
+feeling sad and hopeless for weeks,Major Depressive Disorder,F32.9,Psychiatry,Cognitive Behavioral Therapy,"PHQ-9,TSH,CBC",Psychiatry
+excessive worry and restlessness,Generalized Anxiety Disorder,F41.1,Psychiatry,Anxiolytic Therapy,"GAD-7,TSH,CBC",Psychiatry
+hearing voices and seeing things,Schizophrenia,F20.9,Psychiatry,Antipsychotic Therapy,"MRI Brain,CBC,LFT",Psychiatry
+extreme mood swings,Bipolar Disorder,F31.9,Psychiatry,Mood Stabilizer Therapy,"Thyroid Profile,CBC,EEG",Psychiatry
+not eating and extreme weight loss,Anorexia Nervosa,F50.0,Psychiatry,Nutritional Rehabilitation,"CBC,LFT,ECG",Psychiatry
+unable to sleep for weeks,Insomnia,G47.0,Psychiatry,Sleep Cognitive Therapy,"Sleep Study,TSH,CBC",Psychiatry
+repetitive thoughts and rituals,OCD,F42.9,Psychiatry,Exposure Response Prevention Therapy,"PHQ-9,MRI Brain,CBC",Psychiatry
+swelling in legs and foamy urine,Nephrotic Syndrome,N04.9,Nephrology,Immunosuppressive Therapy,"Urine Routine,KFT,Renal Biopsy",Nephrology
+decreased urine output,Acute Kidney Injury,N17.9,Nephrology,Dialysis,"KFT,Urine Routine,Electrolytes",Nephrology
+chronic fatigue with low urine,Chronic Kidney Disease,N18.9,Nephrology,Hemodialysis,"KFT,CBC,Urine Routine",Nephrology
+blood in urine with hypertension,IgA Nephropathy,N02.8,Nephrology,ACE Inhibitor Therapy,"Renal Biopsy,KFT,Urine Routine",Nephrology
+recurrent kidney infections,Pyelonephritis,N12,Nephrology,IV Antibiotic Therapy,"Urine Culture,KFT,Ultrasound KUB",Nephrology
+muscle cramps and weakness,Electrolyte Imbalance,E87.8,Nephrology,Electrolyte Correction,"Electrolytes,KFT,ECG",Nephrology
+high creatinine levels,Renal Failure,N19,Nephrology,Renal Replacement Therapy,"KFT,CBC,Urine Routine",Nephrology
+wheezing and breathlessness,Asthma,J45.9,Pulmonology,Bronchodilator Therapy,"Spirometry,Chest X-ray,CBC",Pulmonology
+chronic cough with sputum,COPD,J44.9,Pulmonology,Pulmonary Rehabilitation,"Spirometry,Chest CT,ABG",Pulmonology
+sudden chest pain and breathlessness,Pulmonary Embolism,I26.9,Pulmonology,Thrombolysis,"CT Pulmonary Angiography,D-Dimer,ECG",Pulmonology
+fever with productive cough,Pneumonia,J18.9,Pulmonology,Antibiotic Therapy,"Chest X-ray,CBC,Sputum Culture",Pulmonology
+coughing blood with weight loss,Pulmonary Tuberculosis,A15.0,Pulmonology,Anti-TB Therapy,"Sputum AFB,Chest X-ray,CBNAAT",Pulmonology
+breathing difficulty while lying down,Pleural Effusion,J90,Pulmonology,Thoracentesis,"Chest X-ray,Ultrasound Chest,LFT",Pulmonology
+progressive breathlessness with dry cough,Pulmonary Fibrosis,J84.1,Pulmonology,Antifibrotic Therapy,"HRCT Chest,Spirometry,ABG",Pulmonology
